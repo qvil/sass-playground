@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.parent--div {
+  background: skyblue;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  // align-items: center;
+}
+
+.child--div {
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-around;
+  // padding-top: 50px;
+  .content {
+    background: red;
+    color: yellow;
+  }
+}
+
+.seed {
+  width: 10px;
+  height: 10px;
+  background: black;
+}
+
+.stripe {
+  background: black;
+  height: 100%;
+  width: 10px;
+  
+}
+
+#div1 {
+  background: lighten(red, 20%);
+  flex: 5;
+  align-items: center;
+}
+
+#div2 {
+  background: lighten(green, 10%);
+  flex: 1;
+}
+
